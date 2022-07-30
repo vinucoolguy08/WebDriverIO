@@ -1,0 +1,6 @@
+{
+  "script": "return (function removeElementFromDom(id) {\n    var elem = document.querySelector(\"#\".concat(id));\n    if (elem != null) {\n        elem.parentNode.removeChild(elem);\n    }\n}).apply(null, arguments)",
+  "args": [
+    "wic-tabbable-canvas"
+  ]
+}

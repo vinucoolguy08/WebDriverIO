@@ -1,0 +1,38 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1659070455510' stop='1659070460715'>
+    <name>Safety Page</name>
+    <title>Safety Page</title>
+    <test-cases>
+        <test-case start='1659070455510' status='broken' stop='1659070460714'>
+            <name>"before all" hook for Safety Page</name>
+            <title>"before all" hook for Safety Page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-103.0.5060.134'/>
+            </parameters>
+            <steps>
+                <step start='1659070455515' status='passed' stop='1659070460706'>
+                    <name>navigateTo</name>
+                    <title>navigateTo</title>
+                    <attachments>
+                        <attachment title='Request' source='66637714-4447-430a-8001-44ae180ea2b8-attachment.json' type='application/json' size='73'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Command "maximizeWindow" is not yet implemented</message>
+                <stack-trace>Error: Command "maximizeWindow" is not yet implemented
+                    at Browser.retries (C:\Users\PNK013\Test_WebDriverIO\node_modules\devtools\build\devtoolsdriver.js:90:34)
+                    at Browser.wrapCommandFn (C:\Users\PNK013\Test_WebDriverIO\node_modules\@wdio\utils\build\shim.js:137:38)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Context.&lt;anonymous> (C:\Users\PNK013\Test_WebDriverIO\test\specs\safety.ts:6:13)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
